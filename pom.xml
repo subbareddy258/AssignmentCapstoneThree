@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>AssignmentCapstoneOne</artifactId>
+    <artifactId>AssignmentCapstoneThree</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -70,7 +70,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
@@ -261,7 +261,7 @@
                     <plugin>
                         <groupId>net.masterthought</groupId>
                         <artifactId>maven-cucumber-reporting</artifactId>
-                        <version>5.6.0</version>
+                        <version>3.13.0</version>
                         <executions>
                             <execution>
                                 <id>execution</id>
@@ -270,9 +270,9 @@
                                     <goal>generate</goal>
                                 </goals>
                                 <configuration>
-                                    <projectName>cucumberReporting</projectName>
+                                    <projectName>AssignmentCapstoneThree</projectName>
                                     <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
-                                    <cucumberOutPut>${project.build.directory}/cucumber.json</cucumberOutPut>
+                                    <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                                 </configuration>
                             </execution>
                         </executions>
