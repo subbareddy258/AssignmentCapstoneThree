@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
-<suite name="My Suite">
-    <test name="Simple Test">
-        <classes>
-            <class name="stepDefinitions.CreatePetStepDefinition"/>
-        </classes>
-    </test>
-</suite>
